@@ -1,0 +1,48 @@
+
+
+textarea{
+   outline: none;
+   border: 2px solid blue;
+   height: 40px;
+   padding: 2px;
+   border-radius: 0.5rem;
+   grid-column: 1/ -1
+
+   
+}
+input{
+    border-radius: 0.5rem;
+}
+.btn-primary{
+    border-radius: 0.5rem;
+    
+}
+img{
+    height: 15rem;
+    display: grid;
+    grid-template-columns: 1fr auto;
+    grid-row-gap: 10px;
+    padding: 1rem;
+
+}
+.container{
+    margin: 25px;
+    width: 350px;
+    height: 200px;
+    align-items: center;
+}
+body{
+    width: 100%;
+    height:100%;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+button{
+    padding:0.5rem;
+    align-items: center;
+    justify-content: center;
+    display: grid;
+
+}
+
